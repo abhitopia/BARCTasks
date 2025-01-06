@@ -67,15 +67,15 @@ def extract_from_jsonl(path, max_file_size=49 * 1024 * 1024):
     current_file.close()
 
 # %%
-path = "data/100k_gpt4o-mini_generated_problems.jsonl"
-extract_from_jsonl(path)
+# path = "data/100k_gpt4o-mini_generated_problems.jsonl"
+# extract_from_jsonl(path)
 
-# path = "/data/100k-gpt4-description-gpt4omini-code_generated_problems.jsonl"
+# path = "data/100k-gpt4-description-gpt4omini-code_generated_problems.jsonl"
 # extract_from_jsonl(path)
 
 # path = 'data/200k_HEAVY_gpt4o-description-gpt4omini-code_generated_problems_data_100k.jsonl'
 # extract_from_jsonl(path)
 
-# path = 'data/200k_HEAVY_gpt4o-description-gpt4omini-code_generated_problems_data_suggestfunction_100k.jsonl'
-# extract_from_jsonl(path)
+path = 'data/200k_HEAVY_gpt4o-description-gpt4omini-code_generated_problems_data_suggestfunction_100k.jsonl'
+extract_from_jsonl(path)
 # %%
